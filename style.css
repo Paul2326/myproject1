@@ -1,0 +1,61 @@
+.container{
+    max-width: 45%;
+    margin: auto;
+    min-height: 100vh;
+    background-image: url(img/1664239265_7-damion-club-p-oboi-dlya-praisa-pinterest-7.jpg);
+    background-size: cover;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.menu-list li{
+    margin-top: 20px; 
+}
+.menu-list li{
+    color: rgba(48, 14, 58, 0.836);
+    font-style: normal;
+font-weight: 800;
+font-size: x-large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.time-list{
+    color: rgba(48, 14, 58, 0.836);
+    font-style: normal;
+    font-size: medium;
+    font-weight: 900;
+    position: relative;   
+    bottom: 90px;
+   left: 60px;     
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.time-list li:nth-child(3) {
+    margin-top: 13px;
+  }
+  
+  
+.contact-list{
+    text-decoration: none;
+        color: rgba(48, 14, 58, 0.836);
+}
+.contact-l{
+    text-decoration: none;
+    color: rgba(48, 14, 58, 0.836);
+}
+
+.logo-list{
+    position: relative;
+    top: 155px;
+    left: 385px;
+    color: rgba(36, 13, 61, 0.76);
+    font-style: normal;
+font-family: 'Sedgwick Ave Display', cursive;
+font-size: 25px;
+}
